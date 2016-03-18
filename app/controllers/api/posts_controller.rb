@@ -6,6 +6,6 @@ class Api::PostsController < ApplicationController
 
 
   def show
-    @posts = Post.find_by id: params[:id]
+    @post = Post.find_by id: params[:id]
   end
 end
