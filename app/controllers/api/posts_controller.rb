@@ -5,7 +5,6 @@ protect_from_forgery with: :null_session
 
   def index
     @posts = Post.all
-
     #add pagination with kaminari
     #add date filtering
     #add sorting by date
@@ -16,7 +15,7 @@ protect_from_forgery with: :null_session
   end
 
   def create
-    @post = Post.new params.require(:post).permit(:user_id, :title, :post_text)
+    @post = Post.new params.require(:post).permit(:title)
      if @post.save
        render :show
      else
