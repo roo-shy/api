@@ -5,6 +5,10 @@ protect_from_forgery with: :null_session
 
   def index
     @posts = Post.all
+
+    #add pagination with kaminari
+    #add date filtering
+    #add sorting by date
   end
 
   def show
