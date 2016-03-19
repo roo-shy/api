@@ -46,3 +46,5 @@ group :development do
 end
 
 gem 'doorkeeper'
+gem 'http', '~> 1.0', '>= 1.0.3'
+gem "rails-erd"
