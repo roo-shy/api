@@ -1,5 +1,7 @@
 class Api::RegistrationsController < ApplicationController
+
 protect_from_forgery with: :null_session
+
  def create
       @user = User.new params.require(:user).permit(:username, :password)
       if @user.save
