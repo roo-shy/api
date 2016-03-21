@@ -44,14 +44,14 @@ However, this API will follow standard conventions, meaning:
 
 To test API, we run the api_runner.rb by running ruby api-runner.rb. It should output the following.
 
-Should have 401 if I request api/posts
-Creating a User
-Creating an oauth token to user
-Found 0 posts
-Created post with id: $id
-Setting title to Macbook
-Title is now MacBook
-Deleting...
-Found 0 posts
-Deleting the user to clean up
+    Should have 401 if I request api/posts
+    Creating a User
+    Creating an oauth token to user
+    Found 0 posts
+    Created post with id: $id
+    Setting title to Macbook
+    Title is now MacBook
+    Deleting...
+    Found 0 posts
+    Deleting the user to clean up
 
