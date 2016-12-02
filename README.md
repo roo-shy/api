@@ -1,7 +1,7 @@
 
 ##Secure API
 
-Rails app that allows a client to list all Posts via an API.
+###Rails app that allows a client to list all Posts via an API.
 
 - [x] GET /api/posts to return all posts
 
@@ -15,7 +15,7 @@ Rails app that allows a client to list all Posts via an API.
 
 - [x] DELETE /api/posts/:id deletes a post
 
-However, this API will follow standard conventions, meaning:
+###However, this API will follow standard conventions, meaning:
 
 - [x] It is secured with an OAuth Password Grant (https://github.com/doorkeeper-gem/doorkeeper)
 
@@ -46,7 +46,7 @@ However, this API will follow standard conventions, meaning:
 
 ```
 
-To test API, we run the api_runner.rb by running ruby api-runner.rb. It should output the following.
+###To test API, we run the api_runner.rb by running ruby api-runner.rb. It should output the following.
 
     Should have 401 if I request api/posts
     Creating a User
